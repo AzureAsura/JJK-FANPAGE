@@ -428,7 +428,12 @@ p {
   transition-duration: 0.3s;
 }
 
-
+@media (min-width: 416px){
+  .nav-img-logo{
+    width: 300;
+    height: 20;
+  }
+}
 
 @media (min-width: 500px){
   .sukuna{
